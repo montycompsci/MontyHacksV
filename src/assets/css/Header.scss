@@ -1,0 +1,54 @@
+$bg: #0a4c86;
+$accent: #2dfca6;
+
+.head {
+    // background-color: $bg;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    .title {
+        color: $accent;
+        font-size: 8vw;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
+        color: white;
+    }
+
+    .hackathon-date {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.5vw;
+        color: white;
+    }
+
+    .logo {
+        text-align: center;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .head {
+      padding: 10vw;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      margin: auto;
+      text-align: center;
+    }
+
+    .desc {
+        font-size: 3.5vw;
+        margin: auto;
+    }
+}

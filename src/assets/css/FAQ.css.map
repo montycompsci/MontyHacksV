@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,iBAAiB,CAAC;EAJd,gBAAgB,EAAE,kBAAkB;EACpC,KAAK,EAAE,gBAAgB;EAKvB,gBAAgB,EAAC,sBAAsB,CAAC,UAAU;CACrD;;AAED,AAAA,eAAe,CAAC;EATZ,gBAAgB,EAAE,kBAAkB;EACpC,KAAK,EAAE,gBAAgB;EAUvB,gBAAgB,EAAC,sBAAsB,CAAC,UAAU;CACrD",
+    "sources": [
+        "FAQ.scss"
+    ],
+    "names": [],
+    "file": "FAQ.css"
+}

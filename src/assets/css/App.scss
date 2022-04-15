@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #4158D0;
+}
+
+// $bs-body-bg: linear-gradient(to bottom, blue, red);
+$bs-body-bg: #0a4c86;
+$bs-body-bg-end: #6cfa9f;
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, $bs-body-bg, $bs-body-bg-end) !important;
+}
+
+html {
+    // overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1080px) {
+
+}

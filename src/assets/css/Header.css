@@ -1,0 +1,53 @@
+.head {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head .title {
+  color: #2dfca6;
+  font-size: 8vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+.head .desc {
+  text-align: center;
+  color: white;
+}
+
+.head .hackathon-date {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5vw;
+  color: white;
+}
+
+.head .logo {
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    padding: 10vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    text-align: center;
+  }
+  .desc {
+    font-size: 3.5vw;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,14 @@
+@mixin main-colors {
+    background-color: #0e5491 !important;
+    color: white !important;
+}
+
+.accordion-button {
+    @include main-colors;
+    background-color:rgba(14, 83, 144, 0.5) !important;
+}
+
+.accordion-item {
+    @include main-colors;
+    background-color:rgba(14, 83, 144, 0.5) !important;
+}
