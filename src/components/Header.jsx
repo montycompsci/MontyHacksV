@@ -1,10 +1,10 @@
-import "../assets/css/Header.css";
+import "../assets/css/Header.scss";
 import Logo from "../assets/imgs/logo.png";
 
 function Header() {
   return (
     <div className="head">
-      <div>
+      <div data-aos="flip-up" data-aos-duration="2000" data-aos-once="true">
         <div className="logo">
           <img
             src={Logo}
@@ -17,6 +17,10 @@ function Header() {
         <h1 className="title">MontyHacks V</h1>
         <br />
         <h3 className="hackathon-date">June 11th</h3>
+        <br />
+        <div id="signup-btn-wrapper">
+          <button id="signup-btn">Sign up</button>
+        </div>
       </div>
     </div>
   );

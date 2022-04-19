@@ -1,54 +1,97 @@
-$bg: #0a4c86;
+// $bg: #0a4c86;
+// $accent: #2dfca6;
 $accent: #2dfca6;
 
 .head {
-    // background-color: $bg;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  background: linear-gradient(to bottom, rgb(61, 119, 139), #0a4c86);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
+  .title {
+    color: $accent;
+    font-size: 7vw;
+    font-weight: 700;
+    text-align: center;
+  }
 
-    .title {
-        color: $accent;
-        font-size: 7vw;
-        font-weight: 700;
-        text-align: center;
-    }
+  .desc {
+    text-align: center;
+    color: white;
+  }
 
-    .desc {
-        text-align: center;
-        color: white;
-    }
+  .hackathon-date {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: white;
+  }
 
-    .hackathon-date {
-        text-align: center;
-        font-weight: 700;
-        font-size: 3.5vw;
-        color: white;
-    }
-
-    .logo {
-        text-align: center;
-        margin: auto;
-    }
-
+  .logo {
+    text-align: center;
+    margin: auto;
+  }
 }
 
-
 @media screen and (max-width: 600px) {
+  .head {
+    padding: 10vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    text-align: center;
+  }
 
-    .head {
-      padding: 10vw;
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-      margin: auto;
-      text-align: center;
-    }
+  .desc {
+    font-size: 3.5vw;
+    margin: auto;
+  }
+}
 
-    .desc {
-        font-size: 3.5vw;
-        margin: auto;
-    }
+/* From uiverse.io by @nikk7007 */
+#signup-btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17c3b2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17c3b2;
+}
+
+#signup-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+#signup-btn:hover::before {
+  width: 105%;
+}
+
+#signup-btn:hover {
+  color: #111;
+}
+
+#signup-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
 }

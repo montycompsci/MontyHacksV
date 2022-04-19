@@ -1,4 +1,4 @@
-import "../assets/css/FAQ.css";
+import "../assets/css/FAQ.scss";
 import { Accordion } from "react-bootstrap";
 
 function FAQ() {

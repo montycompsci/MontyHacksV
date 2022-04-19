@@ -1,17 +1,20 @@
 .section-title {
-    text-align: center;
-    font-weight: 800;
-    // color: #99ffbe;
-    color: rgba(255, 255, 255, 1.00);
-    margin-bottom: 1em;
+  text-align: center;
+  font-weight: 800;
+  // color: #99ffbe;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 1em;
 }
 
 #about-text {
-    color: white;
+  color: white;
 }
 
 .about {
-    background-color:rgba(14, 83, 144, 0.5) !important;
-    padding: 1.5em;
-    border-radius: 5px;
+  // background-color: rgba(6, 53, 94, 0.9) !important;
+  padding: 1.5em;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
 }
