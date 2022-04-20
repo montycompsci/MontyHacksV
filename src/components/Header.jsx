@@ -14,9 +14,9 @@ function Header() {
             className="logo"
           ></img>
         </div>
-        <h1 className="title">MontyHacks V</h1>
+        <h1 className="title">MontyHacks v</h1>
         <br />
-        <h3 className="hackathon-date">June 11th</h3>
+        <h3 className="hackathon-date">june 11th</h3>
         <br />
         <div id="signup-btn-wrapper">
           <button id="signup-btn">Sign up</button>

@@ -13,7 +13,7 @@ function NavBar() {
         className="navbar-bootstrap"
       >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand id="nav-logo" href="#home">
             <img
               src={Logo}
               width="40"
@@ -21,7 +21,9 @@ function NavBar() {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-            <span className="pl-2">MontyHacks V</span>
+            <span className="pl-2">
+              MontyHacks<span class="small-space"> </span>v
+            </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

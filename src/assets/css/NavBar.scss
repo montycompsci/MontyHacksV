@@ -1,6 +1,14 @@
 .navbar-bootstrap {
-    opacity: 0.8;
-    margin-left: -6em !important;
+  opacity: 0.8;
+}
+
+#nav-logo {
+  font-family: "Major Mono Display", sans-serif;
+  font-weight: bold;
+}
+
+.small-space {
+  font-size: 0.4em;
 }
 
 // .navbar {

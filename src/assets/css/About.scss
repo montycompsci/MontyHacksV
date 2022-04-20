@@ -1,18 +1,12 @@
-.section-title {
-  text-align: center;
-  font-weight: 800;
-  // color: #99ffbe;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 1em;
-}
-
 #about-text {
   color: white;
-}
+  margin: 0;
+} 
 
 .about {
-  // background-color: rgba(6, 53, 94, 0.9) !important;
-  padding: 1.5em;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border-radius: 10px;
   border-radius: 50px;
   background: #0a4c86 !important;

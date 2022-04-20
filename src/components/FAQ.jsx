@@ -9,7 +9,7 @@ function FAQ() {
     },
     {
       header: "What skill levels is MontyHacks intended for?",
-      body: "MontyHacks draws a wide range of participant skill levels — in past years, we’ve had large numbers of both complete beginners and experienced programmers participate. Our workshops will vary in complexity and difficulty, and we’ll also be offering a prize specifically for beginner projects!",
+      body: "In past years, we’ve had many complete beginners and experienced programmers alike participate. Our workshops will vary in difficulty and we’ll also be offering a prize specifically for beginner projects!",
     },
     {
       header: "What is the maximum team size I can work in?",
@@ -26,16 +26,19 @@ function FAQ() {
   ];
 
   return (
-    <div className="faq" id="faq">
-      <h2 className="section-title">FAQ</h2>
-      <Accordion defaultActiveKey="0">
-        {questions.map(({ header, body }, index) => (
-          <Accordion.Item eventKey={index.toString()}>
-            <Accordion.Header>{header}</Accordion.Header>
-            <Accordion.Body>{body}</Accordion.Body>
-          </Accordion.Item>
-        ))}
-      </Accordion>
+    <div id="faq">
+      <div style={{ height: "70px" }}></div>
+      <h2 className="section-title">faq</h2>
+      <div className="faq">
+        <Accordion defaultActiveKey="0">
+          {questions.map(({ header, body }, index) => (
+            <Accordion.Item eventKey={index.toString()}>
+              <Accordion.Header>{header}</Accordion.Header>
+              <Accordion.Body>{body}</Accordion.Body>
+            </Accordion.Item>
+          ))}
+        </Accordion>
+      </div>
     </div>
   );
 }

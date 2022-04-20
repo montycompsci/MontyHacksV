@@ -15,15 +15,11 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   // background: linear-gradient(to bottom, rgb(61, 119, 139), #0a4c86) !important;
-  background-color: #0a4c86 !important; 
+  background-color: #0a4c86 !important;
 }
 
 ul {
   list-style-type: none;
-}
-
-section {
-  padding: 5em 2em;
 }
 
 a {
@@ -31,4 +27,23 @@ a {
 }
 
 @media only screen and (min-width: 1080px) {
+}
+
+.section-title {
+  font-family: "Major Mono Display", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  // color: #99ffbe;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 1em;
+}
+
+.react-container {
+  width: 60% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .react-container {
+    width: 90% !important;
+  }
 }

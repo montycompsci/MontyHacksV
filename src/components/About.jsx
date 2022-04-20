@@ -1,13 +1,20 @@
 import "../assets/css/About.scss";
 
+import clock from "../assets/imgs/clock.svg";
+import location from "../assets/imgs/location.svg";
+import person from "../assets/imgs/person.svg";
+import prizes from "../assets/imgs/prizes.svg";
+import money from "../assets/imgs/money.svg";
+
 function About() {
   return (
-    <div>
-      <h2 className="section-title">About</h2>
-      <div className="about" id="about">
+    <div id="about">
+      <div style={{ height: "70px" }}></div>
+      <h2 className="section-title">about</h2>
+      <div className="about">
         <p id="about-text">
           <img
-            src="https://img.icons8.com/ios/50/000000/clock--v1.png"
+            src={clock}
             alt="time"
             width="40"
             height="40"
@@ -15,7 +22,7 @@ function About() {
           />
           <strong>When</strong>: June 11th, 2022 <br /> <br />
           <img
-            src="https://img.icons8.com/ios/50/000000/building.png"
+            src={location}
             alt="where"
             width="40"
             height="40"
@@ -24,7 +31,7 @@ function About() {
           <strong>Where</strong>: Montgomery High School (1016 Route 601,
           Skillman, NJ 08558) <br /> <br />
           <img
-            src="https://www.freeiconspng.com/thumbs/person-icon/file-person-icon-black-01-svg-6.png"
+            src={person}
             alt="who"
             width="40"
             height="40"
@@ -35,7 +42,7 @@ function About() {
           <br />
           <br />
           <img
-            src="https://static.vecteezy.com/system/resources/previews/001/203/930/large_2x/computer-png.png"
+            src={prizes}
             alt="what"
             width="40"
             height="40"
@@ -46,7 +53,7 @@ function About() {
           <br />
           <br />
           <img
-            src="https://www.freepnglogos.com/uploads/dollar-sign-png/dollar-sign-dollar-symbol-signs-icons-1.png"
+            src={money}
             alt="cost"
             width="40"
             height="40"
