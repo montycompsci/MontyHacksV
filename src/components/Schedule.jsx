@@ -1,5 +1,5 @@
 import "../assets/css/Schedule.scss";
-import { ListGroup, Badge } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
 
 function Schedule() {
   const space1 = "                      ";
