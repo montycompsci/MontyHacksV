@@ -1,12 +1,18 @@
 .accordion-button {
-  background-color: #0e5491 !important;
+  background-color: rgba(14, 83, 144, 0.3) !important;
   color: white !important;
-  background-color: rgba(14, 83, 144, 0.5) !important;
+  background-color: rgba(14, 83, 144, 0.1) !important;
+  font-style: bold;
+  outline: solid white 1px;
+  border: solid white 10px;
 }
 
 .accordion-item {
-  background-color: #0e5491 !important;
+  background-color: rgba(14, 83, 144, 0.3) !important;
   color: white !important;
-  background-color: rgba(14, 83, 144, 0.5) !important;
+  background-color: rgba(14, 83, 144, 0.2) !important;
+  font-style: italic;
+  border: solid white 10px;
+  outline: solid white 1px;
 }
 /*# sourceMappingURL=FAQ.css.map */
