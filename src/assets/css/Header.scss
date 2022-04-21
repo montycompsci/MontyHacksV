@@ -15,7 +15,7 @@ $accent: #2dfca6;
   .title {
     font-family: "Major Mono Display", sans-serif;
     color: $accent;
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: center;
   }
 
@@ -36,6 +36,8 @@ $accent: #2dfca6;
   .logo {
     text-align: center;
     margin: auto;
+    width: 250px;
+    height: 200px;
   }
 }
 
