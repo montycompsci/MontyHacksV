@@ -28,15 +28,10 @@ function App() {
       <NavBar></NavBar>
       <div><Header></Header></div>
       <Container className="react-container">
-        <div style={{ height: "70px" }}></div>
         <div data-aos="fade-left" data-aos-once="true"><About></About></div>
-        <div style={{ height: "70px" }}></div>
         <div data-aos="fade-right" data-aos-once="true"><FAQ></FAQ></div>
-        <div style={{ height: "70px" }}></div>
         <div data-aos="fade-left" data-aos-once="true"><Schedule></Schedule></div>
-        <div style={{ height: "70px" }}></div>
         <div data-aos="fade-right" data-aos-once="true"><Sponsors></Sponsors></div>
-        <div style={{ height: "70px" }}></div>
       </Container>
       <br/>
       <br/>

@@ -4,11 +4,22 @@
   font-size: 1.5em;
   padding-top: 2em;
 }
-#sponsor_logos {
+
+.plat-sponsor-logos, .gold-sponsor-logos {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.silver-sponsor-logos {
+  margin-top: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: 2em;
 }
 
 #sponsors {
