@@ -21,8 +21,9 @@ function NavBar() {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-            <span className="pl-2">
-              MontyHacks<span class="small-space"> </span>v
+            <span className="logo-text">
+              {" MontyHacks"}
+              <span class="small-space"> </span>v
             </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
