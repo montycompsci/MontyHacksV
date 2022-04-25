@@ -19,7 +19,9 @@ function Header() {
         <h3 className="hackathon-date">june 11th</h3>
         <br />
         <div id="signup-btn-wrapper">
-          <button id="signup-btn">Sign up</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSffX0Tw7m4a0PKwV2zXwS_BhBcg0DfQMLrvoAVm_C6a-BasVA/viewform?usp=sf_link">
+            <button id="signup-btn">Sign up</button>
+          </a>
         </div>
       </div>
     </div>
