@@ -1,7 +1,7 @@
 import "../assets/css/Sponsors.scss";
 import Pediatric from "../assets/sponsors/pediatric.jpg";
 
-import CoderSchool from "../assets/sponsors/coderschool.jpg";
+import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
 
 function Sponsors() {
