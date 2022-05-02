@@ -38,9 +38,48 @@ a {
   margin-bottom: 1em;
 }
 
-.react-container {
-  width: 60% !important;
+// .react-container {
+//   margin-bottom: 1em;
+// }
+
+$main-color: #0a4c86;
+$gradient-color1: #08467c;
+$gradient-color2: #256398;
+$gradient-color3: #09569a;
+
+.about-container {
+  background: linear-gradient(to bottom, $main-color, $gradient-color1);
 }
+
+.wave1 {
+  padding-top: 2em;
+  background: $gradient-color1;
+}
+
+.faq-container {
+  padding-bottom: 4em;
+  background: linear-gradient(to top, $gradient-color2, $main-color);
+}
+
+.wave2 {
+  padding-top: 2em;
+  background: $gradient-color2;
+}
+
+.schedule-container {
+  background: linear-gradient(to top, $gradient-color3, $main-color);
+}
+
+.wave3 {
+  padding-top: 4em;
+  background: $gradient-color3;
+}
+
+.sponsors-container {
+  margin-bottom: 20%;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .react-container {

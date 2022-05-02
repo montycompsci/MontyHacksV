@@ -5,15 +5,12 @@ import About from "./components/About";
 import FAQ from "./components/FAQ";
 import Schedule from "./components/Schedule";
 import Sponsors from "./components/Sponsors";
-import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import Wave from "./components/Wave";
 
-// import Wave1 from "./assets/imgs/wave1.svg";
-// import Wave2 from "./assets/imgs/wave2.svg";
-// import Wave3 from "./assets/imgs/wave3.svg";
 
 function App() {
 
@@ -27,25 +24,13 @@ function App() {
     <div>
       <NavBar></NavBar>
       <div><Header></Header></div>
-      <Container className="react-container">
-        <div data-aos="fade-left" data-aos-once="true"><About></About></div>
-        <div data-aos="fade-right" data-aos-once="true"><FAQ></FAQ></div>
-        <div data-aos="fade-left" data-aos-once="true"><Schedule></Schedule></div>
-        <div data-aos="fade-right" data-aos-once="true"><Sponsors></Sponsors></div>
-      </Container>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <div className="about-container react-container" data-aos="fade-left" data-aos-once="true"><About></About></div>
+      <Wave type="1" />
+      <div className="faq-container react-container" data-aos="fade-right" data-aos-once="true"><FAQ></FAQ></div>
+      <Wave type="2" />
+      <div className="schedule-container react-container" data-aos="fade-left" data-aos-once="true"><Schedule></Schedule></div>
+      <Wave type="3" />
+      <div className="sponsors-container react-container" data-aos="fade-right" data-aos-once="true"><Sponsors></Sponsors></div>
     </div>
   );
 }

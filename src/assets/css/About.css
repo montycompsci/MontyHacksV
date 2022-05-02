@@ -1,20 +1,18 @@
-.section-title {
-  text-align: center;
-  font-weight: 800;
-  color: white;
-  margin-bottom: 1em;
-}
-
 #about-text {
   color: white;
+  margin: 0;
 }
 
 .about {
-  padding: 1.5em;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border-radius: 10px;
   border-radius: 50px;
   background: #0a4c86 !important;
   -webkit-box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
           box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  width: 60%;
+  margin: auto;
 }
 /*# sourceMappingURL=About.css.map */

@@ -1,3 +1,13 @@
+.sponsors {
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  width: 60%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .sponsors-text {
   color: white;
   text-align: center;
@@ -6,16 +16,53 @@
 }
 
 .plat-sponsor-logos, .gold-sponsor-logos {
+  width: 60%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+
+  img {
+    width: 35vw; 
+    height: 35vw;
+    max-width: 300px;
+    max-height: 300px;
+  }
 }
 
-.silver-sponsor-logos {
-  margin-top: 6em;
+.silver-row {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60%;
+  margin: 6em auto auto auto;
+
+  img {
+    width: 12vw; 
+    height: 12vw;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
+}
+
+.in-kind-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+
+  img {
+    width: 12vw; 
+    height: 12vw;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
 }
 
 .logo {
@@ -24,4 +71,52 @@
 
 #sponsors {
   width: 100%;
+}
+
+
+
+// Sponsor logo configuration
+// gold
+
+// silver
+
+#codeninjas {
+  width: 18vw;
+  height: 5vw;
+}
+
+
+// in-kind
+
+#roboflow {
+  width: 15vw;
+  height: 7vw;
+}
+
+#voiceflow {
+  width: 12vw;
+  height: 5vw;
+}
+
+#interviewcake {
+  width: 15vw;
+  height: 5vw;
+
+}
+
+@media screen and (max-width: 768px) {
+  .silver-row {
+    img {
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+  }
+
+  .in-kind-row {
+    img {
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+  }
+
 }

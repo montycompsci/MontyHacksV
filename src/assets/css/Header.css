@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 .head {
   background: -webkit-gradient(linear, left top, left bottom, from(#3d778b), to(#0a4c86));
   background: linear-gradient(to bottom, #3d778b, #0a4c86);
@@ -16,27 +17,29 @@
 }
 
 .head .title {
+  font-family: "Major Mono Display", sans-serif;
   color: #2dfca6;
-  font-size: 7vw;
-  font-weight: 700;
+  font-size: 6vw;
+  font-weight: bold;
   text-align: center;
-}
-
-.head .desc {
-  text-align: center;
-  color: white;
+  margin-bottom: -0.6rem;
+  margin-top: 0.4rem;
 }
 
 .head .hackathon-date {
+  font-family: "Major Mono Display", sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 3.5vw;
   color: white;
+  padding-bottom: .6rem;
 }
 
 .head .logo {
   text-align: center;
   margin: auto;
+  width: 250px;
+  height: 200px;
 }
 
 @media screen and (max-width: 600px) {
@@ -47,9 +50,14 @@
     margin: auto;
     text-align: center;
   }
-  .desc {
-    font-size: 3.5vw;
-    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 8vw !important;
+  }
+  .hackathon-date {
+    font-size: 6vw !important;
   }
 }
 
@@ -105,6 +113,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: red;
 }
 /*# sourceMappingURL=Header.css.map */

@@ -64,7 +64,7 @@ function Schedule() {
 
   return (
     <div id="schedule">
-      <div style={{ height: "70px" }}></div>
+      <div style={{ height: "30px" }}></div>
       <h2 className="section-title">schedule</h2>
       <div className="schedule" id="schedule">
         <ListGroup as="ul" className="schedule-list">
