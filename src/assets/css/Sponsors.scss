@@ -118,5 +118,20 @@
       margin-left: 1em;
     }
   }
+}
 
+@media screen and (max-width: 500px) {
+  .silver-row {
+    img {
+      margin-right: .5em;
+      margin-left: .5em;
+    }
+  }
+
+  .in-kind-row {
+    img {
+      margin-right: .5em;
+      margin-left: .5em;
+    }
+  }
 }
