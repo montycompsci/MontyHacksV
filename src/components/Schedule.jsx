@@ -66,7 +66,7 @@ function Schedule() {
     <div id="schedule">
       <div style={{ height: "30px" }}></div>
       <h2 className="section-title">schedule</h2>
-      <div className="schedule" id="schedule">
+      <div className="schedule app-container" id="schedule">
         <ListGroup as="ul" className="schedule-list">
           {activities.map(({ name, description, time }, index) => (
             <ListGroup.Item

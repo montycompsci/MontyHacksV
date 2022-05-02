@@ -29,7 +29,7 @@ function FAQ() {
     <div id="faq">
       <div style={{ height: "70px" }}></div>
       <h2 className="section-title">faq</h2>
-      <div className="faq">
+      <div className="faq app-container">
         <Accordion defaultActiveKey="0">
           {questions.map(({ header, body }, index) => (
             <Accordion.Item eventKey={index.toString()}>

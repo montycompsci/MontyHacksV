@@ -11,7 +11,7 @@ function About() {
     <div id="about">
       <div style={{ height: "70px" }}></div>
       <h2 className="section-title">about</h2>
-      <div className="about">
+      <div className="about app-container">
         <p id="about-text">
           <img
             src={clock}
