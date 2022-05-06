@@ -4,6 +4,7 @@ import Pediatric from "../assets/sponsors/pediatric.jpg";
 import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
 import CodeNinjas from "../assets/sponsors/codeninjas2.png";
+import BrightSight from "../assets/sponsors/brightsight.png";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
 import Roboflow from "../assets/sponsors/roboflow2.png";
@@ -27,20 +28,38 @@ function Sponsors() {
             className="financial-logo"
           />
         </div>
+        <div style={{ height: "30px" }}></div>
         <div className="silver-sponsor-logos">
           <div className="silver-row">
-            <img src={CoderSchool} alt="coderschool logo" className="logo" />
-            <img
-              src={CodeNinjas}
-              alt="code ninjas logo"
-              className="financial-logo"
-              id="codeninjas"
-            />
-            <img
-              src={TigersTale}
-              alt="tigerstale logo"
-              className="financial-logo"
-            />
+            <div>
+              <img src={CoderSchool} alt="coderschool logo" className="logo" />
+            </div>
+            <div>
+              <img
+                src={CodeNinjas}
+                alt="code ninjas logo"
+                className="financial-logo"
+                id="codeninjas"
+              />
+            </div>
+            <div>
+              <img
+                src={TigersTale}
+                alt="tigerstale logo"
+                className="financial-logo"
+                id="tigerstale"
+              />
+            </div>
+          </div>
+          <div className="silver-row">
+            <div>
+              <img
+                src={BrightSight}
+                alt="brightsight logo"
+                className="financial-logo"
+                id="brightsight"
+              />
+            </div>
           </div>
         </div>
         <div style={{ height: "70px" }}></div>
