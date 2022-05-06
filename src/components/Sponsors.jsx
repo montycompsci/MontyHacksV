@@ -3,11 +3,13 @@ import Pediatric from "../assets/sponsors/pediatric.jpg";
 
 import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
-import CodeNinjas from "../assets/sponsors/codeninjas.png";
+import CodeNinjas from "../assets/sponsors/codeninjas2.png";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
 import Roboflow from "../assets/sponsors/roboflow2.png";
 import Voiceflow from "../assets/sponsors/voiceflow.png";
+import Wolfram from "../assets/sponsors/wolfram.svg";
+// import Wolfram from "../assets/sponsors/wolfram.jsx";
 
 function Sponsors() {
   return (
@@ -52,6 +54,14 @@ function Sponsors() {
               alt="voiceflow logo"
               className="logo"
               id="voiceflow"
+            />
+          </div>
+          <div className="in-kind-row">
+            <img
+              src={Wolfram}
+              alt="wolfram logo"
+              className="logo"
+              id="wolfram"
             />
           </div>
         </div>

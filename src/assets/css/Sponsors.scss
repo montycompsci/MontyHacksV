@@ -1,6 +1,7 @@
 .sponsors {
   border-radius: 50px;
   background: #0a4c86 !important;
+  // background: rgb(180, 215, 255) !important;
   box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
   width: 60%;
   margin: auto;
@@ -57,6 +58,8 @@
     max-height: 150px;
     margin-right: 1.5em;
     margin-left: 1.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
   }
 }
 
@@ -76,8 +79,7 @@
 // silver
 
 #codeninjas {
-  width: 18vw;
-  height: 5vw;
+  height: 8vw;
 }
 
 
