@@ -9,7 +9,7 @@ import InterviewCake from "../assets/sponsors/interviewcake.svg";
 import Roboflow from "../assets/sponsors/roboflow2.png";
 import Voiceflow from "../assets/sponsors/voiceflow.png";
 import Wolfram from "../assets/sponsors/wolfram.svg";
-// import Wolfram from "../assets/sponsors/wolfram.jsx";
+import XYZ from "../assets/sponsors/xyz.png";
 
 function Sponsors() {
   return (
@@ -63,6 +63,7 @@ function Sponsors() {
               className="logo"
               id="wolfram"
             />
+            <img src={XYZ} alt="xyz logo" className="logo" id="xyz" />
           </div>
         </div>
       </div>
