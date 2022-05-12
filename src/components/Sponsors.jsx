@@ -5,6 +5,7 @@ import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
 import CodeNinjas from "../assets/sponsors/codeninjas2.png";
 import BrightSight from "../assets/sponsors/brightsight.png";
+import Singer from "../assets/sponsors/singer.png";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
 import Roboflow from "../assets/sponsors/roboflow2.png";
@@ -60,6 +61,14 @@ function Sponsors() {
                 id="brightsight"
               />
             </div>
+            {/* <div>
+              <img
+                src={Singer}
+                alt="singer logo"
+                className="financial-logo"
+                id="singer"
+              />
+            </div> */}
           </div>
         </div>
         <div style={{ height: "70px" }}></div>
