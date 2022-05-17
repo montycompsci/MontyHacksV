@@ -5,7 +5,7 @@ import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
 import CodeNinjas from "../assets/sponsors/codeninjas2.png";
 import BrightSight from "../assets/sponsors/brightsight.png";
-import Singer from "../assets/sponsors/singer.png";
+// import Singer from "../assets/sponsors/singer.png";
 import Kent from "../assets/sponsors/kent.webp";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
