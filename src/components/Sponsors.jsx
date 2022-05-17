@@ -15,6 +15,8 @@ import Wolfram from "../assets/sponsors/wolfram.svg";
 import XYZ from "../assets/sponsors/xyz.png";
 import OnePassword from "../assets/sponsors/1password.png";
 import echo3d from "../assets/sponsors/echo3d.png";
+import Replit from "../assets/sponsors/replit.png";
+import Taskade from "../assets/sponsors/taskade.png";
 
 function Sponsors() {
   return (
@@ -75,7 +77,7 @@ function Sponsors() {
                 src={Kent}
                 alt="kent logo"
                 className="financial-logo"
-                id="singer"
+                id="kent"
               />
             </div>
           </div>
@@ -138,6 +140,22 @@ function Sponsors() {
                 alt="echo3d logo"
                 className="logo"
                 id="echo3d"
+              />
+            </div>
+            <div>
+              <img
+                src={Replit}
+                alt="replit logo"
+                className="logo"
+                id="replit"
+              />
+            </div>
+            <div>
+              <img
+                src={Taskade}
+                alt="taskade logo"
+                className="logo"
+                id="taskade"
               />
             </div>
           </div>
