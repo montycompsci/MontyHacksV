@@ -48,7 +48,7 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>What</strong>: $1,000+ in prizes, workshops, free food, SWAG
+          <strong>What</strong>: $4,000+ in prizes, workshops, free food, SWAG
           (shirts, stickers, etc.)
           <br />
           <br />
