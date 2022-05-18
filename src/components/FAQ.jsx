@@ -4,6 +4,10 @@ import { Accordion } from "react-bootstrap";
 function FAQ() {
   const questions = [
     {
+      header: "What is a hackathon?",
+      body: "A hackathon is an event where people come together to create practical solutions to real world problems using technology. It provides an excellent opportunity to shape your ideas into prototypes and observe their viability. You will also meet many people who share your passions!",
+    },
+    {
       header: "Who can attend?",
       body: "MontyHacks is open to any high schoolers and middle schoolers above the age of 13.",
     },
@@ -13,7 +17,7 @@ function FAQ() {
     },
     {
       header: "What is the maximum team size I can work in?",
-      body: "You may work in a team of up to four people.",
+      body: "You may work in a team of up to five people.",
     },
     {
       header: "Is it alright if I don’t have a team?",
