@@ -28,9 +28,29 @@ function Schedule() {
       time: "10:00am",
     },
     {
+      name: "Intro to Python",
+      description: "Workshop - Hybrid",
+      time: "11:30am",
+    },
+    {
       name: "Lunch",
       description: "In-Person",
       time: "1:00pm",
+    },
+    {
+      name: "Intro to Computer Vision",
+      description: "Workshop - Hybrid",
+      time: "2:00pm",
+    },
+    {
+      name: "Intro to Web Development",
+      description: "Workshop - Hybrid",
+      time: "3:00pm",
+    },
+    {
+      name: "Workshop: Introduction to AI",
+      description: "Hybrid",
+      time: "4:00pm",
     },
     {
       name: "Workshops",
@@ -75,14 +95,19 @@ function Schedule() {
               className={
                 "d-flex justify-content-between align-items-start schedule-item " +
                 (index === 0 ? "top" : "") +
-                (index === activities.length - 1 ? "bottom" : "")
+                (index === activities.length - 1 ? "bottom" : "") +
+                (name.startsWith("Workshop") ? "workshop" : "")
               }
             >
               <div className="ms-2 schedule-item-text">
-                <div className="fw-bold">{time}</div>
+                <div className="fw-bold">
+                  <p className="schedule-item-time">{time}</p>
+                </div>
               </div>
               <div className="ms-4 me-auto schedule-item-text schedule-item-name">
-                <div className="fw-bold">{name}</div>
+                <div className="fw-bold">
+                  <p className="schedule-item-name-text">{name}</p>
+                </div>
                 {description}
               </div>
             </ListGroup.Item>

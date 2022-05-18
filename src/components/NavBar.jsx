@@ -33,6 +33,9 @@ function NavBar() {
               <Nav.Link href="#faq">FAQ</Nav.Link>
               <Nav.Link href="#schedule">Schedule</Nav.Link>
               <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+              <Nav.Link href="https://docs.google.com/forms/d/e/1FAIpQLSeNDT4Dtgm7PB7v9xPtlmylRjVkhchQ0L5HWHdUb5CKPOKQFA/viewform?usp=sf_link">
+                Sign Up
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

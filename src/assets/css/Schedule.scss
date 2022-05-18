@@ -35,6 +35,10 @@
   padding-bottom: 2em !important;
 }
 
+p.schedule-item-name-text, p.schedule-item-time {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .list-group-item {
     padding: 1.5em 1.5em !important;

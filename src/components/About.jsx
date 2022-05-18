@@ -20,7 +20,8 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>When</strong>: June 11th, 2022 <br /> <br />
+          <strong class="about-section">When:</strong> June 11th, 2022 <br />{" "}
+          <br />
           <img
             src={location}
             alt="where"
@@ -28,8 +29,8 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>Where</strong>: Montgomery High School (1016 Route 601,
-          Skillman, NJ 08558) <br /> <br />
+          <strong class="about-section">Where:</strong> Montgomery High School
+          (1016 Route 601, Skillman, NJ 08558) <br /> <br />
           <img
             src={person}
             alt="who"
@@ -37,8 +38,8 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>Who</strong>: Beginner and veteran programmers are welcome —
-          we’ll have events for all experience levels!
+          <strong class="about-section">Who:</strong> Beginner and veteran
+          programmers are welcome!
           <br />
           <br />
           <img
@@ -48,8 +49,8 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>What</strong>: $4,000+ in prizes, workshops, free food, SWAG
-          (shirts, stickers, etc.)
+          <strong class="about-section">What:</strong> $4,000+ in prizes, cool
+          workshops, and free food and merch!
           <br />
           <br />
           <img
@@ -59,7 +60,8 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong>Cost</strong>: $0 — attending MontyHacks is completely free!
+          <strong class="about-section">Cost:</strong> $0 — attending MontyHacks
+          is completely free!
           <br /> <br />
           {/* MontyHacks is the annual hackathon of Montgomery High School, located
           in Skillman, New Jersey — 2022 marks the fifth year we’ve been running
@@ -76,6 +78,14 @@ function About() {
           MontyHacks while also learning new skills and technologies in a team
           environment. We hope to see you there! */}
         </p>
+      </div>
+      <div id="about-btn-wrapper">
+        <a href="https://montyhacks-v.devpost.com/">
+          <button id="about-btn">Devpost</button>
+        </a>
+        <a href="https://discord.gg/3PQ8X6zk">
+          <button id="about-btn">Discord</button>
+        </a>
       </div>
     </div>
   );
