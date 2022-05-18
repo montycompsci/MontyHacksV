@@ -13,7 +13,7 @@ function FAQ() {
     },
     {
       header: "What is the maximum team size I can work in?",
-      body: "You may work in a team of up to five people.",
+      body: "You may work in a team of up to four people.",
     },
     {
       header: "Is it alright if I don’t have a team?",

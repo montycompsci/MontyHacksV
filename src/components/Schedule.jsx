@@ -48,8 +48,8 @@ function Schedule() {
       time: "3:00pm",
     },
     {
-      name: "Workshop: Introduction to AI",
-      description: "Hybrid",
+      name: "Intro to AI",
+      description: "Workshop - Hybrid",
       time: "4:00pm",
     },
     {
