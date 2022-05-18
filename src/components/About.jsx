@@ -5,6 +5,7 @@ import location from "../assets/imgs/location.svg";
 import person from "../assets/imgs/person.svg";
 import prizes from "../assets/imgs/prizes.svg";
 import money from "../assets/imgs/money.svg";
+import theme from "../assets/imgs/theme.svg";
 
 function About() {
   return (
@@ -30,7 +31,7 @@ function About() {
             style={{ marginRight: "20px" }}
           />
           <strong class="about-section">Where:</strong> Montgomery High School
-          (1016 Route 601, Skillman, NJ 08558) <br /> <br />
+          (1016 Route 601, Skillman, NJ) <br /> <br />
           <img
             src={person}
             alt="who"
@@ -62,21 +63,19 @@ function About() {
           />
           <strong class="about-section">Cost:</strong> $0 — attending MontyHacks
           is completely free!
-          <br /> <br />
-          {/* MontyHacks is the annual hackathon of Montgomery High School, located
-          in Skillman, New Jersey — 2022 marks the fifth year we’ve been running
-          it. MontyHacks V will be run in a hybrid format with an in-person
-          focus, so that hackers can join us online or at Montgomery High
-          School.
-          <br /> <br />
-          Participants will collaborate with each other to build cool projects
-          and compete for over $1,000 in prizes! Throughout the day, we’ll have
-          workshops and talks as well as free food and SWAG (shirts, stickers,
-          etc.).
-          <br /> <br />
-          Beginner and veteran programmers alike will have a great time at
-          MontyHacks while also learning new skills and technologies in a team
-          environment. We hope to see you there! */}
+          <br />
+          <br />
+          <img
+            src={theme}
+            alt="theme"
+            width="40"
+            height="40"
+            style={{ marginRight: "20px", marginTop: "-8px" }}
+          />
+          <strong class="about-section">Theme:</strong> The theme of MontyHacks
+          V is Sustainability.
+          <br />
+          <br />
         </p>
       </div>
       <div id="about-btn-wrapper">
