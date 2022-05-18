@@ -50,7 +50,7 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong class="about-section">What:</strong> $4,000+ in prizes, cool
+          <strong class="about-section">What:</strong> $20k+ in prizes, cool
           workshops, and free food and merch!
           <br />
           <br />
