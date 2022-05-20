@@ -5,7 +5,7 @@ import CoderSchool from "../assets/sponsors/coderschool.png";
 import TigersTale from "../assets/sponsors/tigerstale.png";
 import CodeNinjas from "../assets/sponsors/codeninjas2.png";
 import BrightSight from "../assets/sponsors/brightsight.png";
-// import Singer from "../assets/sponsors/singer.png";
+import Singer from "../assets/sponsors/singer.png";
 import Kent from "../assets/sponsors/kent.webp";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
@@ -17,6 +17,7 @@ import OnePassword from "../assets/sponsors/1password.png";
 import echo3d from "../assets/sponsors/echo3d.png";
 import Replit from "../assets/sponsors/replit.png";
 import Taskade from "../assets/sponsors/taskade.png";
+import InstaCrystal from "../assets/sponsors/instacrystal.png";
 
 function Sponsors() {
   return (
@@ -64,14 +65,14 @@ function Sponsors() {
                 id="brightsight"
               />
             </div>
-            {/* <div>
+            <div>
               <img
                 src={Singer}
                 alt="singer logo"
                 className="financial-logo"
                 id="singer"
               />
-            </div> */}
+            </div>
             <div>
               <img
                 src={Kent}
@@ -156,6 +157,16 @@ function Sponsors() {
                 alt="taskade logo"
                 className="logo"
                 id="taskade"
+              />
+            </div>
+          </div>
+          <div className="in-kind-row">
+            <div>
+              <img
+                src={InstaCrystal}
+                alt="instacrystal logo"
+                className="logo"
+                id="instacrystal"
               />
             </div>
           </div>
