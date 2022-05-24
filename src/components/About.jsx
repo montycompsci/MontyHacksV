@@ -82,7 +82,7 @@ function About() {
         <a href="https://montyhacks-v.devpost.com/">
           <button id="about-btn">Devpost</button>
         </a>
-        <a href="https://discord.gg/3PQ8X6zk">
+        <a href="https://discord.gg/npnhqV6kYv">
           <button id="about-btn">Discord</button>
         </a>
       </div>
