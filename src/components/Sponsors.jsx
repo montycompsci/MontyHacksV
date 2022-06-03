@@ -6,7 +6,7 @@ import TigersTale from "../assets/sponsors/tigerstale.png";
 import CodeNinjas from "../assets/sponsors/codeninjas2.png";
 import BrightSight from "../assets/sponsors/brightsight.png";
 import Singer from "../assets/sponsors/singer.png";
-import Kent from "../assets/sponsors/kent.webp";
+import Kent from "../assets/sponsors/kent.png";
 
 import InterviewCake from "../assets/sponsors/interviewcake.svg";
 import Roboflow from "../assets/sponsors/roboflow2.png";
@@ -18,6 +18,7 @@ import echo3d from "../assets/sponsors/echo3d.png";
 import Replit from "../assets/sponsors/replit.png";
 import Taskade from "../assets/sponsors/taskade.png";
 import InstaCrystal from "../assets/sponsors/instacrystal.png";
+import StickerGiant from "../assets/sponsors/stickergiant.png";
 
 function Sponsors() {
   return (
@@ -167,6 +168,14 @@ function Sponsors() {
                 alt="instacrystal logo"
                 className="logo"
                 id="instacrystal"
+              />
+            </div>
+            <div>
+              <img
+                src={StickerGiant}
+                alt="stickergiant logo"
+                className="logo"
+                id="stickergiant"
               />
             </div>
           </div>

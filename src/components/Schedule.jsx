@@ -53,14 +53,14 @@ function Schedule() {
       time: "4:00pm",
     },
     {
-      name: "Workshops",
-      description: "Hybrid",
-      time: "1:30pm",
-    },
-    {
       name: "Snack Break",
       description: "In-Person",
       time: "4:00pm",
+    },
+    {
+      name: "Intro to C",
+      description: "Workshop - Hybrid",
+      time: "5:00pm",
     },
     {
       name: "Dinner",
